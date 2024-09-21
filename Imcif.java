@@ -6,6 +6,7 @@ public class Imcif {
     Double peso, altura, imc;
     String p=JOptionPane.showInputDialog("Digite o seu peso em kg: ");
     peso = Double.parseDouble(p);
+        /* Alternativa: "peso = Double.valueOf();" */
     String a=JOptionPane.showInputDialog("Digite a sua altura em m: ");
     altura = Double.parseDouble(a);
     imc = peso/(altura*altura);
